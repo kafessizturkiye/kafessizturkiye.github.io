@@ -9,10 +9,8 @@ const addresses = [
     "info@pinar.com.tr", 
     "info@getir.com", 
     "iletisim@migros.com.tr",
-    "destek@trendyol.com", 
-    "ircontact@bim.com.tr", 
-    "info@yemeksepeti.com", 
-    "surdurulebilirlik@sokmarket.com.tr", 
+    "destek@trendyol.com",  
+    "info@yemeksepeti.com",  
     "musteri.hizmetleri@istegelsin.com", 
     "kalite@sardunya.com", 
     "info@mekasyemek.com", 
@@ -20,6 +18,6 @@ const addresses = [
 
 const address_1 = addresses[Math.floor(Math.random() * addresses.length)]
 
-let mail = `mailto:${address_1}?bcc=aksiyon@kafessizturkiye.com`
+let mail = `mailto:${address_1}`
 
 window.location.replace(mail);
