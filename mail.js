@@ -1,3 +1,3 @@
-let mail = `mailto:$iletisim@migros.com.tr`
+let mail = `mailto:iletisim@migros.com.tr`
 
 window.location.replace(mail);
