@@ -1,22 +1,5 @@
 const addresses = [
-    "info@larissahotels.com",
-    "deluxebelek@titanic.com.tr",
-    "info@sentidobellazure.com", 
-    "mado@mado.com.tr", 
-    "info@bigchefs.com.tr", 
-    "info@tavukdunyasi.com", 
-    "ir@ulker.com", 
-    "info@pinar.com.tr", 
-    "info@getir.com", 
-    "iletisim@migros.com.tr",
-    "destek@trendyol.com", 
-    "ircontact@bim.com.tr", 
-    "info@yemeksepeti.com", 
-    "surdurulebilirlik@sokmarket.com.tr", 
-    "musteri.hizmetleri@istegelsin.com", 
-    "kalite@sardunya.com", 
-    "info@mekasyemek.com", 
-    "info@aplus.web.tr"];
+    "ozgurt@migros.com.tr", "cansuer@migros.com.tr", "sinemki@migros.com.tr", "ahub@migros.com.tr", "sedaak@migros.com.tr", "hasane@migros.com.tr", "demira@migros.com.tr", "ethemk@migros.com.tr", "hulyag@migros.com.tr"];
  
 const subjects = ['kafese hayır', 'eziyete karşıyım','kafes eziyetine karşıyım', 'Kafeslere Hayır', 'Kafesleri terk edin',
     'Yumurta kullanımınız', 'Kafeslere hayır', 'kafese son', 'Eziyet son bulsun', 'Hayvan eziyeti', 'hayvan eziyeti', 'eziyet bitsin','taahhüt','kafes yumurtasını bırakın','Kafes yumurtasını bırakın', 'Hayvana eziyet', ' tavuklara özgürlük', 'Yumurtalar', 'yumurta', 'Kafeslere karşıyız', 'kafese karşıyım', 'kafese karşıyız',
@@ -190,11 +173,20 @@ const bodies = ['Sayın yetkili,\r\n\r\nİnternet üzerinden otelinizin servis e
     ]
       
 
-const address = addresses[Math.floor(Math.random() * addresses.length)]
+const address_1 = addresses[Math.floor(Math.random() * addresses.length)]
+const address_2 = addresses[Math.floor(Math.random() * addresses.length)]
+const address_3 = addresses[Math.floor(Math.random() * addresses.length)]
+const address_4 = addresses[Math.floor(Math.random() * addresses.length)]
+const address_5 = addresses[Math.floor(Math.random() * addresses.length)]
+const address_6 = addresses[Math.floor(Math.random() * addresses.length)]
+const address_7 = addresses[Math.floor(Math.random() * addresses.length)]
+const address_8 = addresses[Math.floor(Math.random() * addresses.length)]
+const address_9 = addresses[Math.floor(Math.random() * addresses.length)]
+const receiver = address_1 + ',' + address_2 + ',' +address_3 + ',' +address_4 + ',' +address_5 + ',' + address_6 + ',' +address_7 + ',' +address_8 + ',' +address_9
 const subject = subjects[Math.floor(Math.random() * subjects.length)]
 const body = bodies[Math.floor(Math.random() * bodies.length)] 
 
-let mail = `mailto:${address}??bcc=aksiyon@kafessizturkiye.com&subject=${subject}&body=${body}`
+let mail = `mailto:${receiver}??bcc=aksiyon@kafessizturkiye.com&subject=${subject}&body=${body}`
 mail = mail.replace('ı','%C4%B1')
 mail = mail.replace('ö','%C3%B6')
 mail = mail.replace('ü','%C3%BC')
