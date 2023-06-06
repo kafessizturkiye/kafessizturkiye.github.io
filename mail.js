@@ -21,7 +21,7 @@ const receiver = address_1 + ',' + address_2 + ',' +address_3 + ',' +address_4 +
 const subject = subjects[Math.floor(Math.random() * subjects.length)]
 const body = bodies[Math.floor(Math.random() * bodies.length)] 
 
-let mail = `mailto:${receiver}??bcc=aksiyon@kafessizturkiye.com&subject=${subject}&body=${body}`
+let mail = `mailto:${receiver}?bcc=aksiyon@kafessizturkiye.com&subject=${subject}&body=${body}`
 mail = mail.replace('ı','%C4%B1')
 mail = mail.replace('ö','%C3%B6')
 mail = mail.replace('ü','%C3%BC')
