@@ -26,6 +26,6 @@ n yumurtaları satarak hayvan eziyetinin parçası olma", "Migrosun kafes yumurt
 
 const tweet_1 = tweets[Math.floor(Math.random() * tweets.length)]
 
-let tweeting = tweet_1
+let tweeting = "https://twitter.com/intent/tweet_1"
 
 window.location.replace(tweeting);
