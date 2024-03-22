@@ -4,6 +4,15 @@ const tweets = [
 
 const tweet_1 = tweets[Math.floor(Math.random() * tweets.length)]
 
+const options = ['', '%20@Migros_Turkiye'];
+const randomOption = options[Math.floor(Math.random() * options.length)];
+
+const tweet_1 = tweets[Math.floor(Math.random() * tweets.length)];
+
+let tweeting = tweet_1 + ' ' + randomOption;
+
+window.location.replace(tweeting);
+
 let tweeting = tweet_1
 
 window.location.replace(tweeting);
