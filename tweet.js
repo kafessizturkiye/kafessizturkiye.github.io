@@ -11,7 +11,3 @@ const tweet_1 = tweets[Math.floor(Math.random() * tweets.length)];
 let tweeting = tweet_1 + ' ' + randomOption;
 
 window.location.replace(tweeting);
-
-let tweeting = tweet_1
-
-window.location.replace(tweeting);
