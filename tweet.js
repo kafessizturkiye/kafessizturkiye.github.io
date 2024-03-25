@@ -3,7 +3,7 @@ const tweets = [
 ];
 
 
-const options = ['', '%20@Migros_Turkiye'];
+const options = ['&url=https%3A%2F%2Ftwitter.com%2FKafessizTurkiye%2Fstatus%2F1769715707195920469%2Fvideo%2F1', '%20@Migros_Turkiye'];
 const randomOption = options[Math.floor(Math.random() * options.length)];
 
 const tweet_1 = tweets[Math.floor(Math.random() * tweets.length)];
