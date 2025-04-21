@@ -1,6 +1,4 @@
-const address = "mailto:musterihizmetleri@altinmarkart.com?bcc=aksiyon2@kafessizturkiye.com"
-let link = address
-window.location.replace(link);const addresses = [
+const addresses = [
     "https://maps.app.goo.gl/unbeeRVSyPxZXHhb6",
     "https://maps.app.goo.gl/77jGcJgGppJG5tcs8",
     "https://maps.app.goo.gl/LdWp4m2Ai9NVZ2aN9",
